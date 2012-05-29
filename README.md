@@ -1,4 +1,4 @@
-##Color scheme for Sublime Text 2 and Textmate
+<img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/js.png" />
 
 ###Sublime Text 2
 

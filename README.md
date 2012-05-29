@@ -1,6 +1,8 @@
-##Cupid color scheme for Sublime text 2 and Textmate
+#Cupid color scheme for Sublime Text 2 and Textmate
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/js.png" />
+
+##Installation
 
 ###Sublime Text 2
 
@@ -14,7 +16,6 @@ git clone git clone git@github.com:andrewfiorillo/Cupid.git
 ```
 
 This will put the theme in its own directory in your themes directory. This way you can just `git pull` to get theme updates.
-
 
 ###Textmate
 

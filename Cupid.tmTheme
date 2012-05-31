@@ -719,7 +719,7 @@
 			<key>name</key>
 			<string>pub</string>
 			<key>scope</key>
-			<string>pub.embedded.html, pub.embedded.html keyword.operator, pub.embedded.html string</string>
+			<string>pub.embedded.html, pub.embedded.html string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -739,6 +739,19 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>pub braces and operators</string>
+			<key>scope</key>
+			<string>pub.embedded.html meta.brace.round, pub.embedded.html meta.brace.curly, pub.embedded.html keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
 			</dict>
 		</dict>
 		<dict>

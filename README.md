@@ -1,4 +1,10 @@
-#Cupid color scheme for Sublime Text 2 and Textmate
+#Cupid
+
+Colorscheme for Sublime Text 2 and Textmate
+
+##Screenshots
+
+#####Javascript:
 
 <img src="https://dl.dropbox.com/u/22817005/Resources/sublime/Github/js.png" />
 

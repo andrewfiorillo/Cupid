@@ -18,7 +18,7 @@
 				<key>caret</key>
 				<string>#A3FFA6</string>
 				<key>foreground</key>
-				<string>#FFFBF8</string>
+				<string>#d1e8f9</string>
 				<key>invisibles</key>
 				<string>#1F5993</string>
 				<key>lineHighlight</key>
@@ -63,7 +63,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#383839</string>
+				<string>#383838</string>
 			</dict>
 		</dict>
 		<dict>
@@ -75,7 +75,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#62a4e4</string>
-
 			</dict>
 		</dict>
 		<dict>
@@ -101,7 +100,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fff</string>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +126,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +137,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,9 +163,11 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
+		
+		<!-- Python ------------------------------------------------------------------------------------------------------------------>
 		<dict>
 			<key>name</key>
 			<string>Python Magic Variables</string>
@@ -215,6 +216,8 @@
 				<string>#5D935D</string>
 			</dict>
 		</dict>
+		
+		<!-- Ruby -------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
 			<string>Ruby Function Args</string>
@@ -267,125 +270,8 @@
 				<string>#C5A1D7</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Generic Tag names</string>
-			<key>scope</key>
-			<string>entity.name.tag, punctuation.definition.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#1F5993</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Generic Tag attributes</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name, meta.tag.any.html, meta.tag.block.any.html, meta.tag.inline.any.html, meta.tag.structure.any.html, keyword.markup.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0059b7</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Generic Tag strings</string>
-			<key>scope</key>
-			<string>meta.tag.any.html string</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#3791e4</string>
-			</dict>
-		</dict>
-		
-		<!--
-		<dict>
-			<key>name</key>
-			<string>HTML Block Tags</string>
-			<key>scope</key>
-			<string>meta.tag.block.any.html, entity.name.tag.block.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#1c3f73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Structure Tags</string>
-			<key>scope</key>
-			<string>meta.tag.structure.any.html punctuation.definition.tag.html, meta.tag.structure.any.html, entity.name.tag.structure.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#22377B</string>
-			</dict>
-		</dict>
-	-->
-		<dict>
-			<key>name</key>
-			<string>HTML Doctype</string>
-			<key>scope</key>
-			<string>meta.tag.sgml.html, entity.name.tag.doctype.html, string.quoted.double.doctype.identifiers-and-DTDs.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0E2740</string>
-			</dict>
-		</dict>
-		<!-- <dict>
-			<key>name</key>
-			<string>HTML Inline Tags</string>
-			<key>scope</key>
-			<string>meta.tag.inline.any.html, meta.tag.inline.any.html punctuation.definition.tag.html, meta.tag.inline.any.html entity.other.attribute-name.html, entity.name.tag.inline.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#1F5993</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Tag Attributes</string>
-			<key>scope</key>
-			<string>meta.tag.inline.any.html entity.other.attribute-name.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#003B86</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Script Tags</string>
-			<key>scope</key>
-			<string>source.js.embedded.html punctuation.definition.tag.html, entity.name.tag.script</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#1F5993</string>
-			</dict>
-		</dict>
-		 -->
+		 
+		<!-- PHP --------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
@@ -438,6 +324,130 @@
 				<string>#C5A1D7</string>
 			</dict>
 		</dict>
+		
+		<!-- HTML -------------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>Generic Tag names</string>
+			<key>scope</key>
+			<string>entity.name.tag, punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#1F5993</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Generic Tag attributes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name, meta.tag.any.html, meta.tag.block.any.html, meta.tag.inline.any.html, meta.tag.structure.any.html, keyword.markup.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0059b7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Generic Tag strings</string>
+			<key>scope</key>
+			<string>meta.tag.any.html string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#3791e4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Doctype</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.html, entity.name.tag.doctype.html, string.quoted.double.doctype.identifiers-and-DTDs.html, text.html.basic meta.tag.sgml.html punctuation.definition.tag.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#383838</string>
+			</dict>
+		</dict>
+		
+		<!--
+			
+		<dict>
+			<key>name</key>
+			<string>HTML Block Tags</string>
+			<key>scope</key>
+			<string>meta.tag.block.any.html, entity.name.tag.block.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#1c3f73</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Structure Tags</string>
+			<key>scope</key>
+			<string>meta.tag.structure.any.html punctuation.definition.tag.html, meta.tag.structure.any.html, entity.name.tag.structure.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#22377B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Inline Tags</string>
+			<key>scope</key>
+			<string>meta.tag.inline.any.html, meta.tag.inline.any.html punctuation.definition.tag.html, meta.tag.inline.any.html entity.other.attribute-name.html, entity.name.tag.inline.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#1F5993</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Tag Attributes</string>
+			<key>scope</key>
+			<string>meta.tag.inline.any.html entity.other.attribute-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#003B86</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Script Tags</string>
+			<key>scope</key>
+			<string>source.js.embedded.html punctuation.definition.tag.html, entity.name.tag.script</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1F5993</string>
+			</dict>
+		</dict>
+		
+		 -->
+		 
+		 <!-- Javascript -------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
 			<string>JavaScript Keywords</string>
@@ -449,7 +459,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#a60b5d</string>
-				<!-- <string>#5450FF</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -462,7 +471,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fff</string>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -489,7 +498,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#62a4e4</string>
-				<!-- <string>#3da1ff</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -505,6 +513,8 @@
 				<string>#d1096c</string>
 			</dict>
 		</dict>
+		
+		<!-- CSS --------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
 			<string>CSS Selectors</string>
@@ -515,8 +525,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fff</string>
-				<!-- <string>#971BA1</string> -->
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -529,8 +538,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fff</string>
-				<!-- <string>#651E8A</string> -->
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -556,8 +564,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fff</string>
-				<!-- <string>#B36FD6</string> -->
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -618,7 +625,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fff</string>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -629,8 +636,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fff</string>
-				<!-- <string>#5D935D</string> -->
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -641,15 +647,79 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fff</string>
-				<!-- <string>#5D935D</string> -->
+				<string>#d1e8f9</string>
+			</dict>
+		</dict>
+		
+		<!-- Stylus ------------------------------------------------------------------------------------------------------------------>
+		<dict>
+			<key>name</key>
+			<string>Stylus selectors</string>
+			<key>scope</key>
+			<string>source.stylus entity.name.tag.stylus, source.stylus entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d1e8f9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pjs</string>
+			<string>Stylus Properties</string>
 			<key>scope</key>
-			<string>pub.js.embedded.html, pub.js.embedded.html keyword.operator, pub.js.embedded.html string</string>
+			<string>source.stylus support.type.property-name.stylus, source.stylus support.constant.property-value.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#274f99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylus Property Values</string>
+			<key>scope</key>
+			<string>source.stylus support.constant.property-value.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#62a4e4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylus Constants</string>
+			<key>scope</key>
+			<string>constant.numeric.stylus, constant.other.color.rgb-value.stylus, variable.parameter.misc.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#62a4e4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylus Units</string>
+			<key>scope</key>
+			<string>keyword.other.unit.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#62a4e4</string>
+			</dict>
+		</dict>
+		
+		<!-- PUB/PJS ----------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>pub/pjs</string>
+			<key>scope</key>
+			<string>pub.embedded.html, pub.embedded.html keyword.operator, pub.embedded.html string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -660,9 +730,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pjs keyword</string>
+			<string>pub/pjs keyword</string>
 			<key>scope</key>
-			<string>pub.js.embedded.html keyword, pub.js.embedded.html constant, pub.js.embedded.html function, pub.js.embedded.html support</string>
+			<string>pub.embedded.html keyword, pub.embedded.html constant, pub.embedded.html function, pub.embedded.html support</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -673,9 +743,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pjs keyword</string>
+			<string>pub/pjs keyword</string>
 			<key>scope</key>
-			<string>pub.js.embedded.html string, pub.js.embedded.html string constant</string>
+			<string>pub.embedded.html string, pub.embedded.html string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

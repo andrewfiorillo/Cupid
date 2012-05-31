@@ -714,10 +714,10 @@
 			</dict>
 		</dict>
 		
-		<!-- PUB/PJS ----------------------------------------------------------------------------------------------------------------->
+		<!-- PUB --------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
-			<string>pub/pjs</string>
+			<string>pub</string>
 			<key>scope</key>
 			<string>pub.embedded.html, pub.embedded.html keyword.operator, pub.embedded.html string</string>
 			<key>settings</key>
@@ -730,7 +730,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pub/pjs keyword</string>
+			<string>pub keyword</string>
 			<key>scope</key>
 			<string>pub.embedded.html keyword, pub.embedded.html constant, pub.embedded.html function, pub.embedded.html support</string>
 			<key>settings</key>
@@ -743,9 +743,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pub/pjs keyword</string>
+			<string>pub keyword</string>
 			<key>scope</key>
 			<string>pub.embedded.html string, pub.embedded.html string constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#e981a3</string>
+			</dict>
+		</dict>
+		
+		<!-- PJS --------------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>pjs</string>
+			<key>scope</key>
+			<string>source.js.embedded.html.pub, source.js.embedded.html.pub keyword.operator, source.js.embedded.html.pub string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>pjs keyword</string>
+			<key>scope</key>
+			<string>source.js.embedded.html.pub keyword, source.js.embedded.html.pub constant, source.js.embedded.html.pub function, source.js.embedded.html.pub support</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>pjs keyword</string>
+			<key>scope</key>
+			<string>source.js.embedded.html.pub string, source.js.embedded.html.pub string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

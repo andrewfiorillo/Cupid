@@ -20,7 +20,7 @@ or...
 
 ```
 cd ~/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/
-git clone git@github.com:andrewfiorillo/Cupid.git
+git clone git://github.com/andrewfiorillo/Cupid.git
 ```
 
 This will put the theme in its own directory in your themes directory. This way you can just `git pull` to get theme updates.

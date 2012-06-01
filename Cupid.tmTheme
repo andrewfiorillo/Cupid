@@ -797,6 +797,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>pjs braces and operators</string>
+			<key>scope</key>
+			<string>source.js.embedded.html.pub meta.brace.round, source.js.embedded.html.pub meta.brace.curly, source.js.embedded.html.pub keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>pjs keyword</string>
 			<key>scope</key>
 			<string>source.js.embedded.html.pub string, source.js.embedded.html.pub string constant</string>

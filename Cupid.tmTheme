@@ -719,7 +719,7 @@
 			<key>name</key>
 			<string>pub</string>
 			<key>scope</key>
-			<string>pub.embedded.html, pub.embedded.html string</string>
+			<string>source.pub, source.pub string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -732,7 +732,7 @@
 			<key>name</key>
 			<string>pub keyword</string>
 			<key>scope</key>
-			<string>pub.embedded.html keyword, pub.embedded.html constant, pub.embedded.html function, pub.embedded.html support</string>
+			<string>source.pub keyword, source.pub constant, source.pub function, source.pub support</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -745,7 +745,7 @@
 			<key>name</key>
 			<string>pub braces and operators</string>
 			<key>scope</key>
-			<string>pub.embedded.html meta.brace.round, pub.embedded.html meta.brace.curly, pub.embedded.html keyword.operator</string>
+			<string>source.pub meta.brace.round, source.pub meta.brace.curly, source.pub keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -758,7 +758,7 @@
 			<key>name</key>
 			<string>pub keyword</string>
 			<key>scope</key>
-			<string>pub.embedded.html string, pub.embedded.html string constant</string>
+			<string>source.pub string, pub.embedded.html string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

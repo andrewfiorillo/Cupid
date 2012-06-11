@@ -551,7 +551,8 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#274f99</string>
+				<string>#3f64a8</string>
+				<!-- <string>#274f99</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -593,7 +594,7 @@
 			<key>name</key>
 			<string>CSS Constants</string>
 			<key>scope</key>
-			<string>constant.numeric.css, constant.other.color.rgb-value.css, variable.parameter.misc.css</string>
+			<string>constant.numeric.css, constant.other.color.rgb-value.css, variable.parameter.misc.css, keyword.other.important.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -819,6 +820,47 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#e981a3</string>
+			</dict>
+		</dict>
+		
+		<!-- Markdown ------------------>
+		<dict>
+			<key>name</key>
+			<string>Markdown heading</string>
+			<key>scope</key>
+			<string>markup.heading.markdown, entity.name.section.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown code</string>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown, markup.raw.block.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#e981a3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown markup</string>
+			<key>scope</key>
+			<string>markup.italic.markdown, markup.bold.markdown, markup.underline.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#62a4e4</string>
 			</dict>
 		</dict>
 	</array>

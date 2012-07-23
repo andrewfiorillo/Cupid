@@ -757,7 +757,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pub keyword</string>
+			<string>pub string</string>
 			<key>scope</key>
 			<string>source.pub string, pub.embedded.html string constant</string>
 			<key>settings</key>

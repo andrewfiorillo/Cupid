@@ -167,164 +167,6 @@
 			</dict>
 		</dict>
 		
-		<!-- Python ------------------------------------------------------------------------------------------------------------------>
-		<dict>
-			<key>name</key>
-			<string>Python Magic Variables</string>
-			<key>scope</key>
-			<string>support.variable.magic.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B36FD6</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python Function Args</string>
-			<key>scope</key>
-			<string>variable.parameter.function.python, meta.function-call.arguments.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#D4A5F3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python Parenthesis</string>
-			<key>scope</key>
-			<string>punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#B9ADD7</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python Function Decorators</string>
-			<key>scope</key>
-			<string>meta.function.decorator.python, entity.name.function.decorator.python, meta.function.decorator.arguments.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#5D935D</string>
-			</dict>
-		</dict>
-		
-		<!-- Ruby -------------------------------------------------------------------------------------------------------------------->
-		<dict>
-			<key>name</key>
-			<string>Ruby Function Args</string>
-			<key>scope</key>
-			<string>variable.parameter.function.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#B9ADD7</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Global</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.global.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#651E8A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Class Variables</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.class.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#B36FD6</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby Instance Variables</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.instance.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#C5A1D7</string>
-			</dict>
-		</dict>
-		 
-		<!-- PHP --------------------------------------------------------------------------------------------------------------------->
-		<dict>
-			<key>name</key>
-			<string>PHP Tags</string>
-			<key>scope</key>
-			<string>punctuation.definition.embedded.begin.php, meta.consecutive-tags.php, punctuation.definition.embedded.end.php</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FF5401</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP Globals</string>
-			<key>scope</key>
-			<string>variable.other.global.php, variable.other.global.safer.php</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#CE4401</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP Variable Definition</string>
-			<key>scope</key>
-			<string>punctuation.definition.variable.php</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#00D69B</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP Variables</string>
-			<key>scope</key>
-			<string>variable.other.php</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#C5A1D7</string>
-			</dict>
-		</dict>
-		
 		<!-- HTML -------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
@@ -379,141 +221,6 @@
 			</dict>
 		</dict>
 		
-		<!--
-			
-		<dict>
-			<key>name</key>
-			<string>HTML Block Tags</string>
-			<key>scope</key>
-			<string>meta.tag.block.any.html, entity.name.tag.block.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#1c3f73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Structure Tags</string>
-			<key>scope</key>
-			<string>meta.tag.structure.any.html punctuation.definition.tag.html, meta.tag.structure.any.html, entity.name.tag.structure.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#22377B</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Inline Tags</string>
-			<key>scope</key>
-			<string>meta.tag.inline.any.html, meta.tag.inline.any.html punctuation.definition.tag.html, meta.tag.inline.any.html entity.other.attribute-name.html, entity.name.tag.inline.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#1F5993</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Tag Attributes</string>
-			<key>scope</key>
-			<string>meta.tag.inline.any.html entity.other.attribute-name.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#003B86</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Script Tags</string>
-			<key>scope</key>
-			<string>source.js.embedded.html punctuation.definition.tag.html, entity.name.tag.script</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#1F5993</string>
-			</dict>
-		</dict>
-		
-		 -->
-		 
-		 <!-- Javascript -------------------------------------------------------------------------------------------------------------->
-		<dict>
-			<key>name</key>
-			<string>JavaScript Keywords</string>
-			<key>scope</key>
-			<string>variable.language.js, keyword.operator.new.js, source.js storage</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#a60b5d</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Support</string>
-			<key>scope</key>
-			<string>source.js support</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#d1e8f9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Constant</string>
-			<key>scope</key>
-			<string>source.js constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0b5096</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript String</string>
-			<key>scope</key>
-			<string>source.js string</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#62a4e4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Number</string>
-			<key>scope</key>
-			<string>source.js constant.numeric</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#d1096c</string>
-			</dict>
-		</dict>
-		
 		<!-- CSS --------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
@@ -552,7 +259,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#3f64a8</string>
-				<!-- <string>#274f99</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -712,6 +418,309 @@
 			<dict>
 				<key>foreground</key>
 				<string>#62a4e4</string>
+			</dict>
+		</dict>
+		
+		<!-- Python ------------------------------------------------------------------------------------------------------------------>
+		<dict>
+			<key>name</key>
+			<string>Python Magic Variables</string>
+			<key>scope</key>
+			<string>support.variable.magic.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B36FD6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Function Args</string>
+			<key>scope</key>
+			<string>variable.parameter.function.python, meta.function-call.arguments.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D4A5F3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Parenthesis</string>
+			<key>scope</key>
+			<string>punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#B9ADD7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Function Decorators</string>
+			<key>scope</key>
+			<string>meta.function.decorator.python, entity.name.function.decorator.python, meta.function.decorator.arguments.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5D935D</string>
+			</dict>
+		</dict>
+		
+		<!-- Ruby -------------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>Ruby Function Args</string>
+			<key>scope</key>
+			<string>variable.parameter.function.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#B9ADD7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Global</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.global.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#651E8A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Class Variables</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.class.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#B36FD6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Instance Variables</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#C5A1D7</string>
+			</dict>
+		</dict>
+		 
+		<!-- PHP --------------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>PHP Tags</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html, support</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Tags</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html punctuation.section.embedded.begin.php, source.php.embedded.block.html meta.consecutive-tags.php, source.php.embedded.block.html punctuation.definition.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Globals</string>
+			<key>scope</key>
+			<string>variable.other.global.php, variable.other.global.safer.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Variable Definition</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html punctuation.definition.variable.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Variables</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Keywords</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Functions</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html support.function, source.php.embedded.block.html meta.function-call.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Strings</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#dcb7ee</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Operators</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html keyword.operator, source.php.embedded.block.html keyword.operator.logical.php, source.php.embedded.block.html keyword.operator.comparison.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Constants</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html constant.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		 
+		<!-- Javascript -------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>JavaScript Keywords</string>
+			<key>scope</key>
+			<string>variable.language.js, keyword.operator.new.js, source.js storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a60b5d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Support</string>
+			<key>scope</key>
+			<string>source.js support</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#d1e8f9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Constant</string>
+			<key>scope</key>
+			<string>source.js constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0b5096</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript String</string>
+			<key>scope</key>
+			<string>source.js string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#62a4e4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Number</string>
+			<key>scope</key>
+			<string>source.js constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#d1096c</string>
 			</dict>
 		</dict>
 		

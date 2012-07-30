@@ -420,6 +420,28 @@
 				<string>#62a4e4</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylus Variables</string>
+			<key>scope</key>
+			<string>source.stylus variable.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylus functions</string>
+			<key>scope</key>
+			<string>source.stylus meta.function.stylus entity.name.function.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#104fc3</string>
+			</dict>
+		</dict>
 		
 		<!-- Python ------------------------------------------------------------------------------------------------------------------>
 		<dict>
@@ -524,13 +546,119 @@
 				<string>#C5A1D7</string>
 			</dict>
 		</dict>
+		
+		<!-- Rails ------------------------------------------------------------------------------------------------------------------->
+		<dict>
+			<key>name</key>
+			<string>Rails Tags</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded, source.ruby.rails.embedded variable.other.block, string meta source.ruby.rails, string meta source.ruby.rails.embedded variable.other.block</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails Globals</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded variable, string meta source.ruby.embedded variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails Constants</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded constant, string meta source.ruby.embedded constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails Strings</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded string, source.ruby.rails.embedded string.quoted punctuation.definition, string source.ruby.embedded string, string source.ruby.embedded string.quoted punctuation.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#dcb7ee</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails support</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded support.function, string meta source.ruby.embedded support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails keyword</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded keyword, string meta source.ruby.embedded keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails operator</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a61e64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rails braces and punctuation</string>
+			<key>scope</key>
+			<string>source.ruby.rails.embedded punctuation.definition.constant, source.ruby.rails.embedded punctuation.section.function, source.ruby.rails.embedded punctuation.section.array, string meta source.ruby.embedded punctuation.definition.constant, string meta source.ruby.embedded punctuation.section.function, string meta source.ruby.embedded punctuation.section.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
 		 
 		<!-- PHP --------------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html, support</string>
+			<string>source.php.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -543,7 +671,7 @@
 			<key>name</key>
 			<string>PHP Tags</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html punctuation.section.embedded.begin.php, source.php.embedded.block.html meta.consecutive-tags.php, source.php.embedded.block.html punctuation.definition.embedded.end.php</string>
+			<string>source.php.embedded punctuation.section.embedded.begin.php, source.php.embedded meta.consecutive-tags.php, source.php.embedded punctuation.definition.embedded.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -569,7 +697,7 @@
 			<key>name</key>
 			<string>PHP Variable Definition</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html punctuation.definition.variable.php</string>
+			<string>source.php.embedded punctuation.definition.variable.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -582,7 +710,7 @@
 			<key>name</key>
 			<string>PHP Variables</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html variable.other</string>
+			<string>source.php.embedded variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -595,7 +723,7 @@
 			<key>name</key>
 			<string>PHP Keywords</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html keyword</string>
+			<string>source.php.embedded keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -608,7 +736,7 @@
 			<key>name</key>
 			<string>PHP Functions</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html support.function, source.php.embedded.block.html meta.function-call.php</string>
+			<string>source.php.embedded support.function, source.php.embedded meta.function-call.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -621,7 +749,7 @@
 			<key>name</key>
 			<string>PHP Strings</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html string</string>
+			<string>source.php.embedded string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -634,7 +762,7 @@
 			<key>name</key>
 			<string>PHP Operators</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html keyword.operator, source.php.embedded.block.html keyword.operator.logical.php, source.php.embedded.block.html keyword.operator.comparison.php</string>
+			<string>source.php.embedded keyword.operator, source.php.embedded keyword.operator.logical.php, source.php.embedded keyword.operator.comparison.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -647,7 +775,7 @@
 			<key>name</key>
 			<string>PHP Constants</string>
 			<key>scope</key>
-			<string>source.php.embedded.block.html constant.other.php</string>
+			<string>source.php.embedded constant.other.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -832,7 +960,7 @@
 			</dict>
 		</dict>
 		
-		<!-- Markdown ------------------>
+		<!-- Markdown ---------------------------------------------------------------------------------------------------------------->
 		<dict>
 			<key>name</key>
 			<string>Markdown heading</string>

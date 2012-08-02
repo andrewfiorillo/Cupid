@@ -801,6 +801,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JavaScript parameters</string>
+			<key>scope</key>
+			<string>source.js meta variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D4A5F3</string>
+				<!-- <string>#d1e8f9</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JavaScript Support</string>
 			<key>scope</key>
 			<string>source.js support</string>
@@ -810,6 +824,20 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#d1e8f9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Support</string>
+			<key>scope</key>
+			<string>source.js support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D4A5F3</string>
+				<!-- <string>#d1e8f9</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -857,7 +885,7 @@
 			<key>name</key>
 			<string>pub</string>
 			<key>scope</key>
-			<string>source.pub, source.pub string</string>
+			<string>source.pub.embedded, source.pub.embedded string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -870,7 +898,20 @@
 			<key>name</key>
 			<string>pub keyword</string>
 			<key>scope</key>
-			<string>source.pub keyword, source.pub constant, source.pub function, source.pub support</string>
+			<string>source.pub.embedded keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff318f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>pub function</string>
+			<key>scope</key>
+			<string>source.pub.embedded constant, source.pub.embedded function, source.pub.embedded support</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -883,7 +924,7 @@
 			<key>name</key>
 			<string>pub braces and operators</string>
 			<key>scope</key>
-			<string>source.pub meta.brace.round, source.pub meta.brace.curly, source.pub keyword.operator</string>
+			<string>source.pub.embedded meta.brace.round, source.pub.embedded meta.brace.curly, source.pub.embedded keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -896,13 +937,14 @@
 			<key>name</key>
 			<string>pub string</string>
 			<key>scope</key>
-			<string>source.pub string, pub.embedded.html string constant</string>
+			<string>source.pub.embedded string, pub.embedded.html string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#e981a3</string>
+				<!-- <string>#dcb7ee</string> -->
 			</dict>
 		</dict>
 		
@@ -948,7 +990,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pjs keyword</string>
+			<string>pjs string</string>
 			<key>scope</key>
 			<string>source.js.embedded.html.pub string, source.js.embedded.html.pub string constant</string>
 			<key>settings</key>

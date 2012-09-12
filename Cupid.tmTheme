@@ -1044,7 +1044,6 @@
 		</dict>
 		
 		<!-- Textile ----------------------------------------------------------------------------------------------------------------->
-		
 		<dict>
 			<key>name</key>
 			<string>Textile heading</string>
@@ -1058,7 +1057,6 @@
 				<string>#ce3383</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Textile markup</string>
@@ -1072,7 +1070,6 @@
 				<string>#62a4e4</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Textile deleted</string>
@@ -1086,7 +1083,6 @@
 				<string>#555</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Textile image</string>
@@ -1100,7 +1096,6 @@
 				<string>#D4A5F3</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Textile lists</string>

@@ -1042,6 +1042,79 @@
 				<string>#62a4e4</string>
 			</dict>
 		</dict>
+		
+		<!-- Textile ----------------------------------------------------------------------------------------------------------------->
+		
+		<dict>
+			<key>name</key>
+			<string>Textile heading</string>
+			<key>scope</key>
+			<string>text.html.textile markup.heading.textile, text.html.textile markup.heading.textile entity.name.tag.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Textile markup</string>
+			<key>scope</key>
+			<string>text.html.textile meta.paragraph.textile markup.bold, text.html.textile meta.paragraph.textile markup.italic, text.html.textile meta.paragraph.textile markup.inserted, text.html.textile meta.paragraph.textile markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#62a4e4</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Textile deleted</string>
+			<key>scope</key>
+			<string>text.html.textile meta.paragraph.textile markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#555</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Textile image</string>
+			<key>scope</key>
+			<string>text.html.textile meta.paragraph.textile meta.image</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D4A5F3</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Textile lists</string>
+			<key>scope</key>
+			<string>text.html.textile meta.paragraph.textile markup.list.unnumbered.textile, text.html.textile meta.paragraph.textile markup.list.numbered.textile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#555</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>D5C12373-4285-4133-AD4C-EC33DD67F4BE</string>

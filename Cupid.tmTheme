@@ -1031,6 +1031,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markdown lists</string>
+			<key>scope</key>
+			<string>text.html.markdown markup.list punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ce3383</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown markup</string>
 			<key>scope</key>
 			<string>markup.italic.markdown, markup.bold.markdown, markup.underline.link.markdown</string>
